@@ -1,7 +1,6 @@
 # SIMBE - Sistema Metropolitano de Billetaje Electronico
 
-Proyecto Maven correspondiente al Sistema 1 (SIMBE) para la Tarea 3 -
-Proyecto Socket, de la materia Sistemas Distribuidos (FPUNA).
+Proyecto Maven correspondiente al Sistema 1 (SIMBE)
 
 Organizacion propietaria: Empresa Metropolitana de Transporte Electronico
 S.A. (EMTE).
@@ -9,8 +8,7 @@ S.A. (EMTE).
 ## Estado actual
 
 Estructura base del proyecto Maven (clonada/adaptada de la plantilla
-provista por la catedra en `lab-socket/ProyectoJava`). Aun no contiene
-codigo fuente de los servicios: eso corresponde a la siguiente entrega.
+provista por la catedra en `lab-socket/ProyectoJava`).
 
 ## Estructura
 
