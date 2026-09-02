@@ -36,8 +36,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <!-- TODO: actualizar cuando se agreguen las clases servidor en la proxima entrega -->
-                                    <mainClass></mainClass>
+                                    <mainClass>py.una.simbe.server.SimbeServidorRecargas</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -46,6 +45,11 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.1</version>
             </plugin>
         </plugins>
     </build>
