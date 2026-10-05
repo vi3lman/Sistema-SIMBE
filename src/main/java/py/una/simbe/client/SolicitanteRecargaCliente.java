@@ -25,7 +25,7 @@ public class SolicitanteRecargaCliente {
         Scanner scanner = new Scanner(System.in, "UTF-8");
         System.out.print("idTarjeta (ej: TARJETA-001): ");
         String idTarjeta = limpiar(scanner.nextLine());
-        System.out.print("monto de la recarga (ej: 5000): ");
+        System.out.print("monto de la recarga: ");
         double monto = Double.parseDouble(limpiar(scanner.nextLine()));
 
         JSONObject solicitud = new JSONObject();
